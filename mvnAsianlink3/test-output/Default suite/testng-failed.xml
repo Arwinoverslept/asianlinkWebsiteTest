@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="asianlinkWebsite.asianlinkMain">
+      <class name="tests.aboutPage">
         <methods>
-          <include name="teardown"/>
           <include name="setup"/>
-          <include name="testPlayStoreLink"/>
-          <include name="testAppStoreLink"/>
+          <include name="aboutsPageTest"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- asianlinkWebsite.asianlinkMain -->
+      </class> <!-- tests.aboutPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
