@@ -23,6 +23,20 @@
 			<version>5.9.3</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.16.1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.itextpdf/itextpdf -->
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>itextpdf</artifactId>
+			<version>5.5.13.4</version>
+		</dependency>
+
+
 		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -44,6 +58,20 @@
 			<artifactId>testng</artifactId>
 			<version>7.11.0</version>
 			<scope>test</scope>
+		</dependency>
+
+		<!-- iText Kernel (Required for PDF generation) -->
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>kernel</artifactId>
+			<version>7.1.15</version>
+		</dependency>
+
+		<!-- iText Layout (Required for adding content to PDF) -->
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>layout</artifactId>
+			<version>7.1.15</version>
 		</dependency>
 
 		<dependency>

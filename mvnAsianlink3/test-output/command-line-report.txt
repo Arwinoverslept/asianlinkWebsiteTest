@@ -1,0 +1,68 @@
+TEST: testAppStoreLink - PASSED
+Asianlink.ai is Launched<br>
+Accept Cookies<br>
+App Store Download is clicked<br>
+Switched to new window and closing it.<br>
+Switched back to main window.<br>
+-------------------------------------------------
+TEST: testPlayStoreLink - PASSED
+Asianlink.ai is Launched<br>
+Accept Cookies<br>
+Play Store Download is clicked<br>
+-------------------------------------------------
+TEST: aboutsPageTest - PASSED
+Asianlink.ai is Launched<br>
+Accept Cookies<br>
+Clicked About on the Navigation Bar<br>
+<br>Hovered on: //img[@alt='Kevin D Keng']
+<br>Hovered on: //img[@alt='Jose Czarauz Parra']
+<br>Hovered on: //img[@alt='Cesar De Guzman']
+<br>Hovered on: //img[@alt='Maria Melanie De Leon']
+<br>Hovered on: //img[@alt='Dexter Ganibe']
+<br>Hovered on: //img[@alt='Erick Dela Rosa']
+<br>Hovered on: //img[@alt='Raquel Mallannao']
+<br>Hovered on: //img[@alt='Jason Isaac Benitez']
+-------------------------------------------------
+TEST: communitySection - PASSED
+Asianlink.ai is Launched<br>
+Accept Cookies<br>
+Navigate to Join Our Community<br>
+Click left button for navigating the comments<br>
+Click right button for navigating the comments<br>
+Click left button for navigating the comments<br>
+Click right button for navigating the comments<br>
+-------------------------------------------------
+TEST: testAppStoreLink - PASSED
+Asianlink.ai is Launched<br>
+Accept Cookies<br>
+App Store Download is clicked<br>
+Switched to new window and closing it.<br>
+Switched back to main window.<br>
+-------------------------------------------------
+TEST: testPlayStoreLink - PASSED
+Asianlink.ai is Launched<br>
+Accept Cookies<br>
+Play Store Download is clicked<br>
+-------------------------------------------------
+TEST: aboutsPageTest - FAILED
+Asianlink.ai is Launched<br>
+Accept Cookies<br>
+Clicked About on the Navigation Bar<br>
+<br>Element not found: //img[@alt='Kevin']
+<br>Hovered on: //img[@alt='Jose Czarauz Parra']
+<br>Hovered on: //img[@alt='Cesar De Guzman']
+<br>Element not found: //img[@alt='Maria']
+<br>Hovered on: //img[@alt='Dexter Ganibe']
+<br>Hovered on: //img[@alt='Erick Dela Rosa']
+<br>Hovered on: //img[@alt='Raquel Mallannao']
+<br>Hovered on: //img[@alt='Jason Isaac Benitez']
+-------------------------------------------------
+TEST: communitySection - PASSED
+Asianlink.ai is Launched<br>
+Accept Cookies<br>
+Navigate to Join Our Community<br>
+Click left button for navigating the comments<br>
+Click right button for navigating the comments<br>
+Click left button for navigating the comments<br>
+Click right button for navigating the comments<br>
+-------------------------------------------------
