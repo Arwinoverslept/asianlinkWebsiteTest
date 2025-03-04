@@ -16,7 +16,7 @@ public class playStoreTest extends baseTest {
         Reporter.log("Asianlink.ai is Launched<br>", true);
 
         try {
-            driver.findElement(By.xpath("//button[conts(text(), 'Accept Necessary')]")).click();
+            driver.findElement(By.xpath("//button[contains(text(), 'Accept Necessary')]")).click();
             Reporter.log("Accept Cookies<br>", true);
             Thread.sleep(2000);
         } catch (Exception e) {

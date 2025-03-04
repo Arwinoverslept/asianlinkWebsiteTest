@@ -87,7 +87,7 @@ public class PdfReportGenerator {
                     document.add(new Paragraph(line));
                 }
 
-                System.out.println("✅ PDF Report Created: " + outputFile);
+                System.out.println("PDF Report Created: " + outputFile);
             }
 
         } catch (Exception e) {
@@ -144,7 +144,7 @@ public class PdfReportGenerator {
                 }
             }
         } else {
-            System.out.println("⚠️ No log container found for this row.");
+            System.out.println("No log container found for this row.");
         }
 
        
