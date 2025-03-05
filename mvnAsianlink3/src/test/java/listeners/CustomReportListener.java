@@ -46,4 +46,5 @@ public class CustomReportListener extends TestListenerAdapter {
     public void onFinish(ITestContext testContext) {
         writer.close();
     }
+    
 }
