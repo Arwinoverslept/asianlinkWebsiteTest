@@ -3,13 +3,13 @@
 <suite name="Failed suite [Command line suite]">
   <test thread-count="5" name="Command line test(failed)">
     <classes>
-      <class name="tests.playStoreTest">
+      <class name="tests.appStoreTest">
         <methods>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="testPlayStoreLink"/>
+          <include name="testAppStoreLink"/>
         </methods>
-      </class> <!-- tests.playStoreTest -->
+      </class> <!-- tests.appStoreTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

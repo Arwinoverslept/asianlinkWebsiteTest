@@ -1,37 +1,37 @@
 package tests;
 
 import org.openqa.selenium.By;
-import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 import base.baseTest;
 import java.util.Set;
 
 public class appStoreTest extends baseTest {
-    
+
     @Test
-    public void testAppStoreLink() throws InterruptedException {
-        SoftAssert softAssert = new SoftAssert();
+    public void testAppStoreLink() {
+        boolean testFailed = false;
+        StringBuilder logReport = new StringBuilder();
+
+        log("Asianlink.ai is Launched", logReport);
         driver.get("https://asianlink.ai/");
-        Reporter.log("Asianlink.ai is Launched<br>", true);
-        
+
         try {
             driver.findElement(By.xpath("//button[contains(text(), 'Accept Necessary')]")).click();
-            Reporter.log("Accept Cookies<br>", true);
+            log("Accept Cookies", logReport);
             Thread.sleep(2000);
         } catch (Exception e) {
-            Reporter.log("Failed to accept cookies: " + e.getMessage() + "<br>", true);
-            softAssert.fail("Exception while accepting cookies: " + e.getMessage());
+            log("FAILED: Could not accept cookies - " + e.getMessage(), logReport);
+            testFailed = true;
         }
 
         try {
-            driver.findElement(By.xpath("//img[@alt='App Store']")).click();
-            Reporter.log("App Store Download is clicked<br>", true);
+            driver.findElement(By.xpath("//imlt='App Store']")).click();
+            log("App Store Download is clicked", logReport);
             Thread.sleep(5000);
         } catch (Exception e) {
-            Reporter.log("Failed to click App Store link: " + e.getMessage() + "<br>", true);
-            softAssert.fail("Exception while clicking the App Store link: " + e.getMessage());
+            log("FAILED: Could not click App Store link - " + e.getMessage(), logReport);
+            testFailed = true;
         }
 
         try {
@@ -41,17 +41,31 @@ public class appStoreTest extends baseTest {
             for (String window : allWindows) {
                 if (!window.equals(mainWindow)) {
                     driver.switchTo().window(window);
-                    Reporter.log("Switched to new window and closing it.<br>", true);
-                    driver.close(); 
+                    log("Switched to new window and closing it.", logReport);
+                    driver.close();
                     driver.switchTo().window(mainWindow);
-                    Reporter.log("Switched back to main window.<br>", true);
+                    log("Switched back to main window.", logReport);
                 }
             }
         } catch (Exception e) {
-            Reporter.log("Failed while handling multiple windows: " + e.getMessage() + "<br>", true);
-            softAssert.fail("Exception while handling windows: " + e.getMessage());
+            log("FAILED: Could not handle multiple windows - " + e.getMessage(), logReport);
+            testFailed = true;
         }
 
-        softAssert.assertAll();
+        // Final status message (without "Final Status") ++ Edit mamaya para makita yung report logs
+        if (testFailed) {
+            log("Status: FAILED", logReport);
+            assert false : logReport.toString();
+        } else {
+            log("Status: PASSED", logReport);
+        }
+
+        // 1 Print per report
+        Reporter.log("<br>" + logReport.toString().replace("\n", "<br>"), true);
+    }
+
+    // Utility method to log messages in StringBuilder only  
+    private void log(String message, StringBuilder logReport) {
+        logReport.append("- ").append(message).append("\n");
     }
 }

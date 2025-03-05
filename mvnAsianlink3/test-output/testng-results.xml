@@ -1,39 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Asianlink.ai is Launched<br>]]>
-    </line>
-    <line>
-      <![CDATA[Accept Cookies<br>]]>
-    </line>
-    <line>
-      <![CDATA[App Store Download is clicked<br>]]>
-    </line>
-    <line>
-      <![CDATA[Switched to new window and closing it.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Switched back to main window.<br>]]>
-    </line>
-    <line>
-      <![CDATA[Asianlink.ai is Launched<br>]]>
-    </line>
-    <line>
-      <![CDATA[Failed to accept cookies: invalid selector: Unable to locate an element with the xpath expression //button[conts(text(), 'Accept Necessary')] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[conts(text(), 'Accept Necessary')]' is not a valid XPath expression.
-  (Session info: chrome=133.0.6943.142)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Build info: version: '4.29.0', revision: '18ae989'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14a391644742929b5590008247ca8011, findElement {value=//button[conts(text(), 'Accept Necessary')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\ARWIN~1.VIE\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:36378/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14a391644742929b5590008247ca8011<br>]]>
-    </line>
-    <line>
-      <![CDATA[Play Store Download is clicked<br>]]>
-    </line>
     <line>
       <![CDATA[Asianlink.ai is Launched<br>]]>
     </line>
@@ -44,149 +11,40 @@ Session ID: 14a391644742929b5590008247ca8011<br>]]>
       <![CDATA[Clicked About on the Navigation Bar<br>]]>
     </line>
     <line>
-      <![CDATA[<br>Hovered on: //img[@alt='Kevin D Keng']]]>
+      <![CDATA[<br>Hovered on: Kevin D Keng]]>
     </line>
     <line>
-      <![CDATA[<br>Hovered on: //img[@alt='Jose Czarauz Parra']]]>
+      <![CDATA[<br>Hovered on: Jose Czarauz Parra]]>
     </line>
     <line>
-      <![CDATA[<br>Hovered on: //img[@alt='Cesar De Guzman']]]>
+      <![CDATA[<br>Hovered on: Cesar De Guzman]]>
     </line>
     <line>
-      <![CDATA[<br>Hovered on: //img[@alt='Maria Melanie De Leon']]]>
+      <![CDATA[<br>Hovered on: Maria Melanie De Leon]]>
     </line>
     <line>
-      <![CDATA[<br>Hovered on: //img[@alt='Dexter Ganibe']]]>
+      <![CDATA[<br>Hovered on: Dexter Ganibe]]>
     </line>
     <line>
-      <![CDATA[<br>Hovered on: //img[@alt='Erick Dela Rosa']]]>
+      <![CDATA[<br>Hovered on: Erick Dela Rosa]]>
     </line>
     <line>
-      <![CDATA[<br>Hovered on: //img[@alt='Raquel Mallannao']]]>
+      <![CDATA[<br>Hovered on: Raquel Mallannao]]>
     </line>
     <line>
-      <![CDATA[<br>Hovered on: //img[@alt='Jason Isaac Benitez']]]>
-    </line>
-    <line>
-      <![CDATA[Asianlink.ai is Launched<br>]]>
-    </line>
-    <line>
-      <![CDATA[Accept Cookies<br>]]>
-    </line>
-    <line>
-      <![CDATA[Navigate to Join Our Community<br>]]>
-    </line>
-    <line>
-      <![CDATA[Click left button for navigating the comments<br>]]>
-    </line>
-    <line>
-      <![CDATA[Click right button for navigating the comments<br>]]>
-    </line>
-    <line>
-      <![CDATA[Click left button for navigating the comments<br>]]>
-    </line>
-    <line>
-      <![CDATA[Click right button for navigating the comments<br>]]>
+      <![CDATA[<br>Hovered on: Jason Isaac Benitez]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-03-04T17:13:31 PST" name="Command line suite" finished-at="2025-03-04T17:14:59 PST" duration-ms="88431">
+  <suite started-at="2025-03-05T13:58:33 PST" name="Command line suite" finished-at="2025-03-05T13:59:25 PST" duration-ms="52512">
     <groups>
     </groups>
-    <test started-at="2025-03-04T17:13:31 PST" name="Command line test" finished-at="2025-03-04T17:14:59 PST" duration-ms="88431">
-      <class name="tests.playStoreTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.playStoreTest@70a9f84e]" started-at="2025-03-04T17:13:41 PST" name="setup" finished-at="2025-03-04T17:13:42 PST" duration-ms="776" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testPlayStoreLink()[pri:0, instance:tests.playStoreTest@70a9f84e]" started-at="2025-03-04T17:13:42 PST" name="testPlayStoreLink" finished-at="2025-03-04T17:13:49 PST" duration-ms="7027" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-Exception while accepting cookies: invalid selector: Unable to locate an element with the xpath expression //button[conts(text(), 'Accept Necessary')] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[conts(text(), 'Accept Necessary')]' is not a valid XPath expression.
-  (Session info: chrome=133.0.6943.142)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Build info: version: '4.29.0', revision: '18ae989'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14a391644742929b5590008247ca8011, findElement {value=//button[conts(text(), 'Accept Necessary')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\ARWIN~1.VIE\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:36378/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14a391644742929b5590008247ca8011]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-Exception while accepting cookies: invalid selector: Unable to locate an element with the xpath expression //button[conts(text(), 'Accept Necessary')] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[conts(text(), 'Accept Necessary')]' is not a valid XPath expression.
-  (Session info: chrome=133.0.6943.142)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Build info: version: '4.29.0', revision: '18ae989'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14a391644742929b5590008247ca8011, findElement {value=//button[conts(text(), 'Accept Necessary')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\ARWIN~1.VIE\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:36378/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14a391644742929b5590008247ca8011
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at tests.playStoreTest.testPlayStoreLink(playStoreTest.java:36)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at tests.testRunner.main(testRunner.java:15)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[Asianlink.ai is Launched<br>]]>
-            </line>
-            <line>
-              <![CDATA[Failed to accept cookies: invalid selector: Unable to locate an element with the xpath expression //button[conts(text(), 'Accept Necessary')] because of the following error:
-SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[conts(text(), 'Accept Necessary')]' is not a valid XPath expression.
-  (Session info: chrome=133.0.6943.142)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Build info: version: '4.29.0', revision: '18ae989'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [14a391644742929b5590008247ca8011, findElement {value=//button[conts(text(), 'Accept Necessary')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\ARWIN~1.VIE\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:36378/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 14a391644742929b5590008247ca8011<br>]]>
-            </line>
-            <line>
-              <![CDATA[Play Store Download is clicked<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testPlayStoreLink -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.playStoreTest@70a9f84e]" started-at="2025-03-04T17:13:49 PST" name="teardown" finished-at="2025-03-04T17:13:49 PST" duration-ms="212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- tests.playStoreTest -->
+    <test started-at="2025-03-05T13:58:33 PST" name="Command line test" finished-at="2025-03-05T13:59:25 PST" duration-ms="52512">
       <class name="tests.aboutPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.aboutPage@130f889]" started-at="2025-03-04T17:13:49 PST" name="setup" finished-at="2025-03-04T17:13:50 PST" duration-ms="770" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.aboutPage@17211155]" started-at="2025-03-05T13:58:33 PST" name="setup" finished-at="2025-03-05T13:58:34 PST" duration-ms="1292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="aboutsPageTest()[pri:0, instance:tests.aboutPage@130f889]" started-at="2025-03-04T17:13:50 PST" name="aboutsPageTest" finished-at="2025-03-04T17:14:42 PST" duration-ms="51393" status="PASS">
+        <test-method signature="aboutsPageTest()[pri:0, instance:tests.aboutPage@17211155]" started-at="2025-03-05T13:58:34 PST" name="aboutsPageTest" finished-at="2025-03-05T13:59:25 PST" duration-ms="50995" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Asianlink.ai is Launched<br>]]>
@@ -198,100 +56,36 @@ Session ID: 14a391644742929b5590008247ca8011<br>]]>
               <![CDATA[Clicked About on the Navigation Bar<br>]]>
             </line>
             <line>
-              <![CDATA[<br>Hovered on: //img[@alt='Kevin D Keng']]]>
+              <![CDATA[<br>Hovered on: Kevin D Keng]]>
             </line>
             <line>
-              <![CDATA[<br>Hovered on: //img[@alt='Jose Czarauz Parra']]]>
+              <![CDATA[<br>Hovered on: Jose Czarauz Parra]]>
             </line>
             <line>
-              <![CDATA[<br>Hovered on: //img[@alt='Cesar De Guzman']]]>
+              <![CDATA[<br>Hovered on: Cesar De Guzman]]>
             </line>
             <line>
-              <![CDATA[<br>Hovered on: //img[@alt='Maria Melanie De Leon']]]>
+              <![CDATA[<br>Hovered on: Maria Melanie De Leon]]>
             </line>
             <line>
-              <![CDATA[<br>Hovered on: //img[@alt='Dexter Ganibe']]]>
+              <![CDATA[<br>Hovered on: Dexter Ganibe]]>
             </line>
             <line>
-              <![CDATA[<br>Hovered on: //img[@alt='Erick Dela Rosa']]]>
+              <![CDATA[<br>Hovered on: Erick Dela Rosa]]>
             </line>
             <line>
-              <![CDATA[<br>Hovered on: //img[@alt='Raquel Mallannao']]]>
+              <![CDATA[<br>Hovered on: Raquel Mallannao]]>
             </line>
             <line>
-              <![CDATA[<br>Hovered on: //img[@alt='Jason Isaac Benitez']]]>
+              <![CDATA[<br>Hovered on: Jason Isaac Benitez]]>
             </line>
           </reporter-output>
         </test-method> <!-- aboutsPageTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.aboutPage@130f889]" started-at="2025-03-04T17:14:42 PST" name="teardown" finished-at="2025-03-04T17:14:42 PST" duration-ms="239" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.aboutPage@17211155]" started-at="2025-03-05T13:59:25 PST" name="teardown" finished-at="2025-03-05T13:59:25 PST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- tests.aboutPage -->
-      <class name="tests.appStoreTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.appStoreTest@1f021e6c]" started-at="2025-03-04T17:13:31 PST" name="setup" finished-at="2025-03-04T17:13:32 PST" duration-ms="1140" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testAppStoreLink()[pri:0, instance:tests.appStoreTest@1f021e6c]" started-at="2025-03-04T17:13:32 PST" name="testAppStoreLink" finished-at="2025-03-04T17:13:41 PST" duration-ms="9059" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Asianlink.ai is Launched<br>]]>
-            </line>
-            <line>
-              <![CDATA[Accept Cookies<br>]]>
-            </line>
-            <line>
-              <![CDATA[App Store Download is clicked<br>]]>
-            </line>
-            <line>
-              <![CDATA[Switched to new window and closing it.<br>]]>
-            </line>
-            <line>
-              <![CDATA[Switched back to main window.<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testAppStoreLink -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.appStoreTest@1f021e6c]" started-at="2025-03-04T17:13:41 PST" name="teardown" finished-at="2025-03-04T17:13:41 PST" duration-ms="268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- tests.appStoreTest -->
-      <class name="tests.joinOurCommunity">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.joinOurCommunity@1188e820]" started-at="2025-03-04T17:14:42 PST" name="setup" finished-at="2025-03-04T17:14:43 PST" duration-ms="811" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="communitySection()[pri:0, instance:tests.joinOurCommunity@1188e820]" started-at="2025-03-04T17:14:43 PST" name="communitySection" finished-at="2025-03-04T17:14:59 PST" duration-ms="16452" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Asianlink.ai is Launched<br>]]>
-            </line>
-            <line>
-              <![CDATA[Accept Cookies<br>]]>
-            </line>
-            <line>
-              <![CDATA[Navigate to Join Our Community<br>]]>
-            </line>
-            <line>
-              <![CDATA[Click left button for navigating the comments<br>]]>
-            </line>
-            <line>
-              <![CDATA[Click right button for navigating the comments<br>]]>
-            </line>
-            <line>
-              <![CDATA[Click left button for navigating the comments<br>]]>
-            </line>
-            <line>
-              <![CDATA[Click right button for navigating the comments<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- communitySection -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.joinOurCommunity@1188e820]" started-at="2025-03-04T17:14:59 PST" name="teardown" finished-at="2025-03-04T17:14:59 PST" duration-ms="244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- tests.joinOurCommunity -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
 </testng-results>

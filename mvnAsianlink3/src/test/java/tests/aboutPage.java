@@ -53,6 +53,7 @@ public class aboutPage extends baseTest {
 
                 if (!elements.isEmpty()) {
                     WebElement element = elements.get(0);
+                    String altText = element.getAttribute("alt"); 
                     
                     js.executeScript(
                         "window.scrollTo({top: arguments[0].getBoundingClientRect().top + window.scrollY - 100, behavior: 'smooth'});",
@@ -63,10 +64,10 @@ public class aboutPage extends baseTest {
                     actions.moveToElement(element).perform();
                     Thread.sleep(3000);
 
-                    Reporter.log("<br>Hovered on: " + xpath, true);
+                    Reporter.log("<br>Hovered on: " + altText, true); 
                 } else {
-                    Reporter.log("<br>Element not found: " + xpath, true);
-                    softAssert.fail("Element not found: " + xpath);
+                    Reporter.log("<br>Element not found for alt: " + xpath, true);
+                    softAssert.fail("Element not found for alt: " + xpath);
                 }
             } catch (Exception e) {
                 Reporter.log("Error interacting with element: <br>" + xpath + " - " + e.getMessage(), true);

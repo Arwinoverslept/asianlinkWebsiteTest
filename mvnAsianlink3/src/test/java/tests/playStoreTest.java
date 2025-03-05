@@ -3,15 +3,14 @@ package tests;
 import org.openqa.selenium.By;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 import base.baseTest;
 
 public class playStoreTest extends baseTest {
 
     @Test
     public void testPlayStoreLink() throws InterruptedException {
-        SoftAssert softAssert = new SoftAssert();
-        
+        boolean testFailed = false; // Track failure status
+
         driver.get("https://asianlink.ai/");
         Reporter.log("Asianlink.ai is Launched<br>", true);
 
@@ -20,8 +19,8 @@ public class playStoreTest extends baseTest {
             Reporter.log("Accept Cookies<br>", true);
             Thread.sleep(2000);
         } catch (Exception e) {
-            Reporter.log("Failed to accept cookies: " + e.getMessage() + "<br>", true);
-            softAssert.fail("Exception while accepting cookies: " + e.getMessage());
+            Reporter.log("FAILED: Could not accept cookies<br>", true);
+            testFailed = true;
         }
 
         try {
@@ -29,10 +28,16 @@ public class playStoreTest extends baseTest {
             Reporter.log("Play Store Download is clicked<br>", true);
             Thread.sleep(5000);
         } catch (Exception e) {
-            Reporter.log("Failed to click Play Store link: " + e.getMessage() + "<br>", true);
-            softAssert.fail("Exception while clicking Play Store link: " + e.getMessage());
+            Reporter.log("FAILED: Could not click Play Store link<br>", true);
+            testFailed = true;
         }
 
-        softAssert.assertAll();
+        // Log final test status
+        if (testFailed) {
+            Reporter.log("Status: FAILED<br>", true);
+            assert false; // Force test failure without printing stack trace
+        } else {
+            Reporter.log("Status: PASSED<br>", true);
+        }
     }
 }
