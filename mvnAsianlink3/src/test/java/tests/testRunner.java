@@ -8,10 +8,10 @@ public class testRunner {
 		TestNG testng = new TestNG();
 		testng.setTestClasses(
 				new Class[] { 
-						//appStoreTest.class, 
-						//playStoreTest.class, 
+						appStoreTest.class, 
+						playStoreTest.class, 
 						aboutPage.class, 
-						//joinOurCommunity.class 
+						joinOurCommunity.class 
 						}
 				);
 		testng.run();

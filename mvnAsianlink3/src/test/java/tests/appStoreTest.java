@@ -26,7 +26,7 @@ public class appStoreTest extends baseTest {
         }
 
         try {
-            driver.findElement(By.xpath("//imlt='App Store']")).click();
+            driver.findElement(By.xpath("//img[@alt='App Store']")).click();
             log("App Store Download is clicked", logReport);
             Thread.sleep(5000);
         } catch (Exception e) {

@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[<br>- Asianlink.ai is Launched<br>- Accept Cookies<br>- FAILED: Could not click App Store link - invalid selector: Unable to locate an element with the xpath expression //imlt='App Store'] because of the following error:<br>SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//imlt='App Store']' is not a valid XPath expression.<br>  (Session info: chrome=133.0.6943.143)<br>For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception<br>Build info: version: '4.29.0', revision: '18ae989'<br>System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'<br>Driver info: org.openqa.selenium.chrome.ChromeDriver<br>Command: [946cb797a4126b3b5f5b7e45ef60178b, findElement {value=//imlt='App Store'], using=xpath}]<br>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.143, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\ARWIN~1.VIE\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58812/devtoo..., se:cdpVersion: 133.0.6943.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br>Session ID: 946cb797a4126b3b5f5b7e45ef60178b<br>- Status: FAILED<br>]]>
+    </line>
+    <line>
+      <![CDATA[Asianlink.ai is Launched<br>]]>
+    </line>
+    <line>
+      <![CDATA[Accept Cookies<br>]]>
+    </line>
+    <line>
+      <![CDATA[Play Store Download is clicked<br>]]>
+    </line>
+    <line>
+      <![CDATA[Status: PASSED<br>]]>
+    </line>
     <line>
       <![CDATA[Asianlink.ai is Launched<br>]]>
     </line>
@@ -34,17 +49,67 @@
     <line>
       <![CDATA[<br>Hovered on: Jason Isaac Benitez]]>
     </line>
+    <line>
+      <![CDATA[Asianlink.ai is Launched<br>]]>
+    </line>
+    <line>
+      <![CDATA[Accept Cookies<br>]]>
+    </line>
+    <line>
+      <![CDATA[Navigate to Join Our Community<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click left button for navigating the comments<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click right button for navigating the comments<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click left button for navigating the comments<br>]]>
+    </line>
+    <line>
+      <![CDATA[Click right button for navigating the comments<br>]]>
+    </line>
+    <line>
+      <![CDATA[Status: PASSED<br>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-03-05T13:58:33 PST" name="Command line suite" finished-at="2025-03-05T13:59:25 PST" duration-ms="52512">
+  <suite started-at="2025-03-06T16:58:01 PST" name="Command line suite" finished-at="2025-03-06T16:59:30 PST" duration-ms="88519">
     <groups>
     </groups>
-    <test started-at="2025-03-05T13:58:33 PST" name="Command line test" finished-at="2025-03-05T13:59:25 PST" duration-ms="52512">
-      <class name="tests.aboutPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.aboutPage@17211155]" started-at="2025-03-05T13:58:33 PST" name="setup" finished-at="2025-03-05T13:58:34 PST" duration-ms="1292" status="PASS">
+    <test started-at="2025-03-06T16:58:01 PST" name="Command line test" finished-at="2025-03-06T16:59:30 PST" duration-ms="88519">
+      <class name="tests.playStoreTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.playStoreTest@530612ba]" started-at="2025-03-06T16:58:08 PST" name="setup" finished-at="2025-03-06T16:58:09 PST" duration-ms="1160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="aboutsPageTest()[pri:0, instance:tests.aboutPage@17211155]" started-at="2025-03-05T13:58:34 PST" name="aboutsPageTest" finished-at="2025-03-05T13:59:25 PST" duration-ms="50995" status="PASS">
+        <test-method signature="testPlayStoreLink()[pri:0, instance:tests.playStoreTest@530612ba]" started-at="2025-03-06T16:58:09 PST" name="testPlayStoreLink" finished-at="2025-03-06T16:58:19 PST" duration-ms="9038" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Asianlink.ai is Launched<br>]]>
+            </line>
+            <line>
+              <![CDATA[Accept Cookies<br>]]>
+            </line>
+            <line>
+              <![CDATA[Play Store Download is clicked<br>]]>
+            </line>
+            <line>
+              <![CDATA[Status: PASSED<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPlayStoreLink -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.playStoreTest@530612ba]" started-at="2025-03-06T16:58:19 PST" name="teardown" finished-at="2025-03-06T16:58:19 PST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.playStoreTest -->
+      <class name="tests.aboutPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.aboutPage@2a40cd94]" started-at="2025-03-06T16:58:19 PST" name="setup" finished-at="2025-03-06T16:58:20 PST" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="aboutsPageTest()[pri:0, instance:tests.aboutPage@2a40cd94]" started-at="2025-03-06T16:58:20 PST" name="aboutsPageTest" finished-at="2025-03-06T16:59:12 PST" duration-ms="51723" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Asianlink.ai is Launched<br>]]>
@@ -81,11 +146,66 @@
             </line>
           </reporter-output>
         </test-method> <!-- aboutsPageTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.aboutPage@17211155]" started-at="2025-03-05T13:59:25 PST" name="teardown" finished-at="2025-03-05T13:59:25 PST" duration-ms="188" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.aboutPage@2a40cd94]" started-at="2025-03-06T16:59:12 PST" name="teardown" finished-at="2025-03-06T16:59:12 PST" duration-ms="226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- tests.aboutPage -->
+      <class name="tests.appStoreTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.appStoreTest@52525845]" started-at="2025-03-06T16:58:01 PST" name="setup" finished-at="2025-03-06T16:58:03 PST" duration-ms="1741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAppStoreLink()[pri:0, instance:tests.appStoreTest@52525845]" started-at="2025-03-06T16:58:03 PST" name="testAppStoreLink" finished-at="2025-03-06T16:58:08 PST" duration-ms="5096" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>- Asianlink.ai is Launched<br>- Accept Cookies<br>- FAILED: Could not click App Store link - invalid selector: Unable to locate an element with the xpath expression //imlt='App Store'] because of the following error:<br>SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//imlt='App Store']' is not a valid XPath expression.<br>  (Session info: chrome=133.0.6943.143)<br>For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception<br>Build info: version: '4.29.0', revision: '18ae989'<br>System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'<br>Driver info: org.openqa.selenium.chrome.ChromeDriver<br>Command: [946cb797a4126b3b5f5b7e45ef60178b, findElement {value=//imlt='App Store'], using=xpath}]<br>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.143, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:\Users\ARWIN~1.VIE\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58812}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58812/devtoo..., se:cdpVersion: 133.0.6943.143, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br>Session ID: 946cb797a4126b3b5f5b7e45ef60178b<br>- Status: FAILED<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAppStoreLink -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.appStoreTest@52525845]" started-at="2025-03-06T16:58:08 PST" name="teardown" finished-at="2025-03-06T16:58:08 PST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.appStoreTest -->
+      <class name="tests.joinOurCommunity">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.joinOurCommunity@f4168b8]" started-at="2025-03-06T16:59:12 PST" name="setup" finished-at="2025-03-06T16:59:13 PST" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="communitySection()[pri:0, instance:tests.joinOurCommunity@f4168b8]" started-at="2025-03-06T16:59:13 PST" name="communitySection" finished-at="2025-03-06T16:59:29 PST" duration-ms="16200" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Asianlink.ai is Launched<br>]]>
+            </line>
+            <line>
+              <![CDATA[Accept Cookies<br>]]>
+            </line>
+            <line>
+              <![CDATA[Navigate to Join Our Community<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click left button for navigating the comments<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click right button for navigating the comments<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click left button for navigating the comments<br>]]>
+            </line>
+            <line>
+              <![CDATA[Click right button for navigating the comments<br>]]>
+            </line>
+            <line>
+              <![CDATA[Status: PASSED<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- communitySection -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.joinOurCommunity@f4168b8]" started-at="2025-03-06T16:59:29 PST" name="teardown" finished-at="2025-03-06T16:59:30 PST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.joinOurCommunity -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
 </testng-results>
