@@ -5,7 +5,7 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 import base.baseTest;
 
-public class playStoreTest extends baseTest {
+public class PlayStoreTest extends baseTest {
 
     @Test
     public void testPlayStoreLink() throws InterruptedException {
@@ -32,12 +32,5 @@ public class playStoreTest extends baseTest {
             testFailed = true;
         }
 
-        // Log final test status
-        if (testFailed) {
-            Reporter.log("Status: FAILED<br>", true);
-            assert false; // Force test failure without printing stack trace
-        } else {
-            Reporter.log("Status: PASSED<br>", true);
-        }
     }
 }

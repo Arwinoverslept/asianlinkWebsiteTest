@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import base.baseTest;
 
-public class aboutPage extends baseTest {
+public class AboutPageTest extends baseTest {
 
 	@Test
 	public void aboutsPageTest() throws InterruptedException {
@@ -47,7 +47,7 @@ public class aboutPage extends baseTest {
 
 		for (String xpath : xpaths) {
 			try {
-				
+
 				List<WebElement> elements = driver.findElements(By.xpath(xpath));
 
 				if (!elements.isEmpty()) {
@@ -62,18 +62,18 @@ public class aboutPage extends baseTest {
 					actions.moveToElement(element).perform();
 					Thread.sleep(3000);
 					Reporter.log("<br>Hovered on: " + altText, true);
-					
+
 				} else {
 					Reporter.log("<br>Element not found for alt: " + xpath, true);
 					softAssert.fail("Element not found for alt: " + xpath);
 				}
-				
+
 			} catch (Exception e) {
 				Reporter.log("Error interacting with element: <br>" + xpath + " - " + e.getMessage(), true);
 				softAssert.fail("Exception while interacting with element: " + xpath + " - " + e.getMessage());
 			}
 		}
-		
+
 		softAssert.assertAll();
 	}
 }

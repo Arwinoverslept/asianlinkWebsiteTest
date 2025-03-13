@@ -8,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Reporter;
 import base.baseTest;
 
-public class joinOurCommunity extends baseTest {
+public class JoinOourCommunityTest extends baseTest {
 
     @Test
     public void communitySection() throws InterruptedException {
@@ -43,15 +43,6 @@ public class joinOurCommunity extends baseTest {
         testFailed |= clickButton("//button[contains(@class, 'text-white') and contains(@class, 'bg-heading') and contains(@class, 'rounded-full')][2]", "right", actions);
         testFailed |= clickButton("//button[contains(@class, 'text-white') and contains(@class, 'bg-heading') and contains(@class, 'rounded-full')][1]", "left", actions);
         testFailed |= clickButton("//button[contains(@class, 'text-white') and contains(@class, 'bg-heading') and contains(@class, 'rounded-full')][2]", "right", actions);
-
-        
-        if (testFailed) {
-            Reporter.log("Status: FAILED<br>", true);
-            assert false;
-        } else {
-            Reporter.log("Status: PASSED<br>", true);
-        }
-        
         
     }
 

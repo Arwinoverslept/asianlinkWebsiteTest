@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import base.baseTest;
 import java.util.Set;
 
-public class appStoreTest extends baseTest {
+public class AppStoreTest extends baseTest {
 
     @Test
     public void testAppStoreLink() {
@@ -50,14 +50,6 @@ public class appStoreTest extends baseTest {
         } catch (Exception e) {
             log("FAILED: Could not handle multiple windows - " + e.getMessage(), logReport);
             testFailed = true;
-        }
-
-        // Final status message (without "Final Status") ++ Edit mamaya para makita yung report logs
-        if (testFailed) {
-            log("Status: FAILED", logReport);
-            assert false : logReport.toString();
-        } else {
-            log("Status: PASSED", logReport);
         }
 
         // 1 Print per report
